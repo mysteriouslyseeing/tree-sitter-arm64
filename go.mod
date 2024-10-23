@@ -1,4 +1,4 @@
-module example.com/
+module github.com/mysteriouslyseeing/tree-sitter-arm64
 
 go 1.22
 

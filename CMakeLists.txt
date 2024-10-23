@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.13)
 project(tree-sitter-arm64
         VERSION "0.0.1"
         DESCRIPTION "A parser for gas's assembler for use with arm64"
-        HOMEPAGE_URL "https://example.com/"
+        HOMEPAGE_URL "https://github.com/mysteriouslyseeing/tree-sitter-arm64/"
         LANGUAGES C)
 
 option(BUILD_SHARED_LIBS "Build using shared libraries" ON)

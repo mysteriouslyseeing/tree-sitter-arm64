@@ -3,7 +3,7 @@ $(error Windows is not supported)
 endif
 
 LANGUAGE_NAME := tree-sitter-arm64
-HOMEPAGE_URL := https://example.com/
+HOMEPAGE_URL := https://github.com/mysteriouslyseeing/tree-sitter-arm64/
 VERSION := 0.0.1
 
 # repository
