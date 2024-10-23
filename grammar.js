@@ -37,7 +37,7 @@ module.exports = grammar({
     ),
     directive_argument: $ => choice($._identifier, $.number, $.string),
 
-    _identifier: $ => /\\?[a-zA-Z_\.][a-zA-Z_0-9\.]+/,
+    _identifier: $ => /\\?[a-zA-Z_\.][a-zA-Z_0-9\.]*/,
 
     instruction: $ => choice($.label, $._instruction_segment, seq($.label, $._instruction_segment)),
     label: $ => seq($.label_identifier, ':'),
